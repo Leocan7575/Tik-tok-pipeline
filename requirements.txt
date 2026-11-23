@@ -1,0 +1,9 @@
+# Schritt analyze / assemble (lokal, kostenlos)
+scenedetect>=0.6.4
+opencv-python-headless>=4.8
+numpy
+Pillow>=10
+faster-whisper>=1.0
+python-dotenv>=1.0
+# API-Schritte (script, characters, generate, voice) – folgen
+requests>=2.31
