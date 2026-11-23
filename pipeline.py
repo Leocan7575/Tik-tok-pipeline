@@ -37,6 +37,12 @@ def cmd_assemble(args) -> None:
              ausgabe=Path(args.ausgabe) if args.ausgabe else None, neu_rendern=args.neu_rendern)
 
 
+def cmd_drehbuch(args) -> None:
+    from tiktok_pipeline.drehbuch import schreibe_markdown
+
+    schreibe_markdown(_projekt(args))
+
+
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(prog="pipeline.py", description="Vorbild-Video -> neues KI-Video (9:16)")
     sub = p.add_subparsers(dest="befehl", required=True)
@@ -72,6 +78,9 @@ def build_parser() -> argparse.ArgumentParser:
     s.add_argument("--ausgabe", "-o", help="Zieldatei (Standard: projekte/<name>/final.mp4)")
     s.add_argument("--neu-rendern", action="store_true", help="Segment-Cache ignorieren")
     s.set_defaults(func=cmd_assemble)
+    d = sub.add_parser("drehbuch", help="Prompts aus script.json neu zusammensetzen + drehbuch.md exportieren")
+    projekt_arg(d)
+    d.set_defaults(func=cmd_drehbuch)
     return p
 
 

@@ -35,6 +35,9 @@ class SzenenPlan:
     voice_dauer: float
     dialog_start: float
     prompt: str
+    einblendung: str = ""
+    kamera: str = ""
+    beschreibung: str = ""
 
 
 def lade_script(projekt: Projekt) -> dict:
@@ -58,6 +61,8 @@ def plane_szenen(script: dict, projekt: Projekt, min_luft: float = 0.15) -> list
             nr=nr, dauer=round(d, 3), dialog=(sz.get("dialog") or "").strip(),
             sprecher=sz.get("sprecher"), clip=projekt.clip_fuer(nr), voice=voice, voice_dauer=vd,
             dialog_start=start, prompt=sz.get("prompt") or "",
+            einblendung=(sz.get("einblendung") or "").strip(), kamera=sz.get("kamera") or "",
+            beschreibung=sz.get("beschreibung_de") or sz.get("aktion") or sz.get("prompt") or "",
         ))
     return plaene
 
@@ -68,11 +73,11 @@ def plane_szenen(script: dict, projekt: Projekt, min_luft: float = 0.15) -> list
 
 
 def _cache_schluessel(p: SzenenPlan, clip_ton: float) -> str:
-    teile = [SEGMENT_VERSION, p.nr, p.dauer, p.dialog_start, clip_ton]
+    teile = [SEGMENT_VERSION, p.nr, p.dauer, p.dialog_start, clip_ton, p.sprecher, p.dialog]
     for f in (p.clip, p.voice):
         teile.append(f"{f}:{f.stat().st_mtime_ns}:{f.stat().st_size}" if f else "-")
     if not p.clip:
-        teile.append(p.prompt)
+        teile += [p.beschreibung, p.kamera]
     return hashlib.sha1(json.dumps(teile, default=str).encode()).hexdigest()
 
 
@@ -101,11 +106,12 @@ def rendere_segment(p: SzenenPlan, projekt: Projekt, clip_ton: float = 0.0, pres
         farbe = PLATZHALTER_FARBEN[(p.nr - 1) % len(PLATZHALTER_FARBEN)]
         cmd += ["-f", "lavfi", "-i", f"color=c={farbe}:s={BREITE}x{HOEHE}:r={FPS}:d={D:.3f}"]
         font = filter_pfad(FONTS_DIR / "Montserrat-Black.ttf")
-        vkette = (f"[0:v]drawtext=fontfile={font}:text='SZENE {p.nr}':fontsize=120:fontcolor=white:"
-                  f"x=(w-text_w)/2:y=300:borderw=6:bordercolor=black,"
-                  f"drawtext=fontfile={font}:textfile={filter_pfad(txt)}:fontsize=40:fontcolor=white@0.85:"
-                  f"x=90:y=520:line_spacing=14,"
-                  f"drawtext=fontfile={font}:text='%{{pts\\:hms}}':fontsize=40:fontcolor=white@0.6:x=90:y=h-200,"
+        vkette = (f"[0:v]drawtext=fontfile={font}:text='SZENE {p.nr}':fontsize=80:fontcolor=white@0.9:"
+                  f"x=(w-text_w)/2:y=110:borderw=5:bordercolor=black,"
+                  f"drawtext=fontfile={font}:textfile={filter_pfad(txt)}:fontsize=54:fontcolor=white:"
+                  f"x=90:y=720:line_spacing=18,"
+                  f"drawtext=fontfile={font}:text='PLATZHALTER – noch kein Clip':fontsize=34:"
+                  f"fontcolor=white@0.5:x=(w-text_w)/2:y=h-170,"
                   f"setsar=1,format=yuv420p[v]")
     else:
         raise SystemExit(f"Clip für Szene {p.nr} fehlt ({projekt.clips}/szene_{p.nr:03d}.mp4).")
@@ -134,11 +140,9 @@ def rendere_segment(p: SzenenPlan, projekt: Projekt, clip_ton: float = 0.0, pres
 
 
 def _platzhalter_text(p: SzenenPlan) -> str:
-    zeilen = ["PLATZHALTER (noch kein Clip)", ""]
-    if p.prompt:
-        zeilen += textwrap.wrap(p.prompt, 38)[:14]
-    if p.sprecher or p.dialog:
-        zeilen += ["", f"{(p.sprecher or '?').upper()}:"] + textwrap.wrap(p.dialog, 38)[:4]
+    zeilen = textwrap.wrap(p.beschreibung, 30)[:5]
+    if p.kamera:
+        zeilen += ["", f"[{p.kamera}]"]
     # drawtext interpretiert % als Ausdruck
     return "\n".join(zeilen).replace("%", "%%")
 
@@ -159,6 +163,8 @@ def baue_untertitel(plaene: list[SzenenPlan], script: dict, stil: Stil, wps: flo
             else:  # ohne Sprachaufnahme: Lesedauer schätzen
                 ende = min(t + p.dauer - 0.05, start + max(0.8, len(p.dialog.split()) / wps))
             zeilen += zeilen_fuer_dialog(p.dialog, start, ende, stil, farben.get(p.sprecher))
+        if p.einblendung:
+            zeilen.append(Zeile(t + 0.05, t + p.dauer, p.einblendung, stil="Einblendung"))
         t += p.dauer
     return zeilen
 

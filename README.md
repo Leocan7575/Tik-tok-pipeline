@@ -113,20 +113,38 @@ python pipeline.py assemble -p vorbild --ohne-platzhalter   # abbrechen, falls e
 - **Cache:** Jede Szene wird als eigenes Segment gerendert und nur neu gebaut, wenn sich Clip, Stimme oder Dauer
   geändert haben – nach dem Neu-Erzeugen einer einzelnen Szene geht der Schnitt in Sekunden.
 
+### drehbuch
+
+```bash
+python pipeline.py drehbuch --projekt mops
+```
+
+Setzt die Video-Prompts aller Szenen neu zusammen (Stil + **wortgleiche Figurenbeschreibung** + Kamera + Handlung)
+und exportiert `drehbuch.md` mit Ablauftabelle und Prompts zum Kopieren in Web-Apps (Kling, Hailuo, …).
+
+Beispiel: `beispiele/mops/` – „Bruno muss in die Wanne“ (53 Szenen, 67 s, Dramaturgie und Tempo wie das Vorbild).
+Zum Ausprobieren: `mkdir -p projekte/mops && cp beispiele/mops/script.json projekte/mops/ && python pipeline.py assemble -p mops`
+
 ### script.json-Format (wird von Schritt 2 erzeugt, kann auch von Hand geschrieben werden)
 
 ```json
 {
   "titel": "Der verschwundene Käse",
+  "stil": "Stylized 3D animated feature-film look, ...",
   "figuren": [
-    {"id": "fuchs", "name": "Fritz der Fuchs", "untertitel_farbe": "#FFE14D"}
+    {"id": "fuchs", "name": "Fritz", "beschreibung": "a slim red fox with ...", "untertitel_farbe": "#FFE14D"}
   ],
   "szenen": [
-    {"nr": 1, "dauer": 1.6, "prompt": "3D animation, a fox with huge eyes ...", "kamera": "Close-up",
-     "sprecher": "fuchs", "dialog": "Moment mal, wo ist mein Käse?!"}
+    {"nr": 1, "dauer": 1.6, "kamera": "Close-up", "figuren_im_bild": ["fuchs"],
+     "aktion": "Fritz stares at an empty plate in shock ...", "beschreibung_de": "Fritz entdeckt den leeren Teller",
+     "sprecher": "fuchs", "dialog": "Moment mal, wo ist mein Käse?!", "einblendung": "",
+     "prompt": "(wird von 'drehbuch' automatisch erzeugt)"}
   ]
 }
 ```
+
+`einblendung` blendet einen großen Comic-Text (z. B. „HAB DICH!“) über die ganze Szene ein – per ffmpeg,
+weil KI-Videomodelle Schrift oft fehlerhaft darstellen.
 
 Dateien werden über die Szenennummer gefunden: `clips/szene_001.mp4`, `voice/szene_001.mp3` (auch .wav/.m4a).
 

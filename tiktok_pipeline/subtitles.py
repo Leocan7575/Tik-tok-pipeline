@@ -31,6 +31,7 @@ class Zeile:
     ende: float
     text: str
     farbe: str | None = None  # optionale Sprecherfarbe
+    stil: str = "TikTok"      # "TikTok" = Untertitel, "Einblendung" = großer Comic-Text (z. B. "HAB DICH!")
 
 
 def _ass_farbe(hexfarbe: str, alpha: int = 0) -> str:
@@ -90,11 +91,13 @@ def zeilen_fuer_dialog(text: str, start: float, ende: float, stil: Stil, farbe: 
     return zeilen
 
 
-def _ass_text(text: str, stil: Stil, farbe: str | None) -> str:
-    t = text.upper() if stil.grossbuchstaben else text
+def _ass_text(text: str, stil: Stil, farbe: str | None, einblendung: bool = False) -> str:
+    t = text.upper() if stil.grossbuchstaben or einblendung else text
     t = t.replace("\\", "/").replace("{", "(").replace("}", ")")
     tags = ""
-    if stil.pop:
+    if einblendung:
+        tags += r"\fscx30\fscy30\t(0,120,\fscx115\fscy115)\t(120,200,\fscx100\fscy100)"
+    elif stil.pop:
         tags += r"\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)"
     if farbe:
         tags += rf"\c{_ass_farbe(farbe)}"
@@ -113,19 +116,22 @@ YCbCr Matrix: TV.709
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Einblendung,{stil.schrift},{int(stil.groesse * 1.7)},{_ass_farbe('#FFE600')},{_ass_farbe('#FFE600')},{_ass_farbe('#000000')},{_ass_farbe('#000000', 0x40)},0,0,0,0,100,100,2,-6,1,12,6,8,60,60,330,1
 Style: TikTok,{stil.schrift},{stil.groesse},{_ass_farbe(stil.farbe)},{_ass_farbe(stil.farbe)},{_ass_farbe(stil.kontur_farbe)},{_ass_farbe('#000000', 0x60)},0,0,0,0,100,100,1,0,1,{stil.kontur},{stil.schatten},2,{stil.rand_seite},{stil.rand_seite},{stil.rand_unten},1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
     zeilen_txt = [
-        f"Dialogue: 0,{_zeit_ass(z.start)},{_zeit_ass(z.ende)},TikTok,,0,0,0,,{_ass_text(z.text, stil, z.farbe)}"
+        f"Dialogue: {1 if z.stil == 'Einblendung' else 0},{_zeit_ass(z.start)},{_zeit_ass(z.ende)},{z.stil},,0,0,0,,"
+        f"{_ass_text(z.text, stil, z.farbe, z.stil == 'Einblendung')}"
         for z in zeilen
     ]
     ziel.write_text(kopf + "\n".join(zeilen_txt) + "\n", encoding="utf-8")
 
 
 def schreibe_srt(zeilen: list[Zeile], ziel: Path) -> None:
+    zeilen = sorted((z for z in zeilen if z.stil == "TikTok"), key=lambda z: z.start)
     bloecke = [f"{i}\n{_zeit_srt(z.start)} --> {_zeit_srt(z.ende)}\n{z.text}\n"
                for i, z in enumerate(zeilen, start=1)]
     ziel.write_text("\n".join(bloecke), encoding="utf-8")

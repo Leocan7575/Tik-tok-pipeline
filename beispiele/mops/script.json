@@ -1,0 +1,825 @@
+{
+  "titel": "Bruno muss in die Wanne",
+  "logline": "Ein dreckiger Mops will auf keinen Fall baden – bis Opa Heinz mit Würstchen einen Plan B baut.",
+  "sprache": "de",
+  "stil": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading",
+  "regeln": "Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo.",
+  "figuren": [
+    {
+      "id": "opa",
+      "name": "Opa Heinz",
+      "untertitel_farbe": "#FFFFFF",
+      "beschreibung": "a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers",
+      "stimme": "warme, gemütliche Opa-Stimme, leicht brummig, verschmitzt"
+    },
+    {
+      "id": "bruno",
+      "name": "Bruno",
+      "untertitel_farbe": "#FFE14D",
+      "beschreibung": "a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag",
+      "stimme": null
+    }
+  ],
+  "szenen": [
+    {
+      "nr": 1,
+      "akt": "Problem",
+      "dauer": 1.7,
+      "kamera": "Medium shot, slight low angle",
+      "figuren_im_bild": [
+        "bruno"
+      ],
+      "beschreibung_de": "Bruno steht stolz und voller Schlamm in der Gartentür",
+      "aktion": "Bruno stands proudly in the open garden door of a cozy living room, completely covered in wet brown mud, tail wagging, mud dripping onto the clean wooden floor, muddy paw prints behind him.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Medium shot, slight low angle. Bruno stands proudly in the open garden door of a cozy living room, completely covered in wet brown mud, tail wagging, mud dripping onto the clean wooden floor, muddy paw prints behind him. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 2,
+      "akt": "Problem",
+      "dauer": 1.3,
+      "kamera": "Medium close-up",
+      "figuren_im_bild": [
+        "opa"
+      ],
+      "beschreibung_de": "Opa kommt rein, erstarrt geschockt",
+      "aktion": "Opa Heinz walks in holding a coffee cup, freezes mid-step, his eyes go huge and his mustache bristles in shock, coffee sloshing out of the cup.",
+      "sprecher": "opa",
+      "dialog": "Bruno! Was hast du gemacht?!",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Camera: Medium close-up. Opa Heinz walks in holding a coffee cup, freezes mid-step, his eyes go huge and his mustache bristles in shock, coffee sloshing out of the cup. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 3,
+      "akt": "Problem",
+      "dauer": 1.7,
+      "kamera": "Extreme close-up",
+      "figuren_im_bild": [
+        "bruno"
+      ],
+      "beschreibung_de": "Bruno guckt unschuldig, Schlamm auf der Nase",
+      "aktion": "Bruno's muddy face fills the frame, huge innocent glossy eyes blinking slowly, a blob of mud on his nose, he licks his nose with a tiny pink tongue.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Extreme close-up. Bruno's muddy face fills the frame, huge innocent glossy eyes blinking slowly, a blob of mud on his nose, he licks his nose with a tiny pink tongue. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 4,
+      "akt": "Problem",
+      "dauer": 2.1,
+      "kamera": "Medium shot",
+      "figuren_im_bild": [
+        "opa"
+      ],
+      "beschreibung_de": "Opa lässt ein Schaumbad ein",
+      "aktion": "In a cozy bathroom, Opa Heinz kneels next to a white bathtub filling with fluffy foam, a yellow rubber duck floating in it, he smiles hopefully toward the door.",
+      "sprecher": "opa",
+      "dialog": "Nur ein kleines Bad, Kumpel.",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Camera: Medium shot. In a cozy bathroom, Opa Heinz kneels next to a white bathtub filling with fluffy foam, a yellow rubber duck floating in it, he smiles hopefully toward the door. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 5,
+      "akt": "Problem",
+      "dauer": 2.3,
+      "kamera": "Close-up",
+      "figuren_im_bild": [
+        "bruno"
+      ],
+      "beschreibung_de": "Bruno sieht die Wanne – blankes Entsetzen",
+      "aktion": "Bruno peeks around the bathroom door frame, sees the foamy bathtub, his ears flatten and his eyes widen in pure horror, his whole body trembles.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Close-up. Bruno peeks around the bathroom door frame, sees the foamy bathtub, his ears flatten and his eyes widen in pure horror, his whole body trembles. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 6,
+      "akt": "Problem",
+      "dauer": 1.4,
+      "kamera": "Low angle tracking shot",
+      "figuren_im_bild": [
+        "bruno"
+      ],
+      "beschreibung_de": "Bruno rast davon",
+      "aktion": "Bruno sprints away down the hallway on his tiny legs at cartoon speed, legs a blur, mud splashing, a little cloud of dust behind him.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Low angle tracking shot. Bruno sprints away down the hallway on his tiny legs at cartoon speed, legs a blur, mud splashing, a little cloud of dust behind him. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 7,
+      "akt": "Problem",
+      "dauer": 0.6,
+      "kamera": "Close-up",
+      "figuren_im_bild": [
+        "opa"
+      ],
+      "beschreibung_de": "Opa: Facepalm",
+      "aktion": "Opa Heinz sighs deeply and slaps his palm onto his forehead, glasses wobbling.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Camera: Close-up. Opa Heinz sighs deeply and slaps his palm onto his forehead, glasses wobbling. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 8,
+      "akt": "Problem",
+      "dauer": 1.6,
+      "kamera": "Medium close-up",
+      "figuren_im_bild": [
+        "opa"
+      ],
+      "beschreibung_de": "Opa hat eine Idee",
+      "aktion": "Opa Heinz suddenly gets an idea, raises his index finger, eyes sparkling, a big excited grin under his mustache.",
+      "sprecher": "opa",
+      "dialog": "Ich hab's!",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Camera: Medium close-up. Opa Heinz suddenly gets an idea, raises his index finger, eyes sparkling, a big excited grin under his mustache. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 9,
+      "akt": "Problem",
+      "dauer": 1.3,
+      "kamera": "Extreme close-up on hands",
+      "figuren_im_bild": [
+        "opa"
+      ],
+      "beschreibung_de": "Quietscheente in Opas Händen",
+      "aktion": "Opa Heinz's wrinkly hands squeeze a yellow rubber duck, it squeaks, little water droplets fly off.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Camera: Extreme close-up on hands. Opa Heinz's wrinkly hands squeeze a yellow rubber duck, it squeaks, little water droplets fly off. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 10,
+      "akt": "Problem",
+      "dauer": 1.4,
+      "kamera": "Medium shot",
+      "figuren_im_bild": [
+        "opa"
+      ],
+      "beschreibung_de": "Opa lockt mit der Ente",
+      "aktion": "Opa Heinz kneels on the living room floor, squeaking the rubber duck and smiling sweetly, coaxing toward the sofa.",
+      "sprecher": "opa",
+      "dialog": "Schau mal, Bruno!",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Camera: Medium shot. Opa Heinz kneels on the living room floor, squeaking the rubber duck and smiling sweetly, coaxing toward the sofa. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 11,
+      "akt": "Problem",
+      "dauer": 3.8,
+      "kamera": "Low angle close-up at floor level",
+      "figuren_im_bild": [
+        "bruno"
+      ],
+      "beschreibung_de": "Bruno unterm Sofa – dreht beleidigt den Kopf weg",
+      "aktion": "Under a beige sofa only Bruno's muddy face and big eyes are visible in the shadow, he looks completely unimpressed, then dramatically turns his head away with his nose in the air.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Low angle close-up at floor level. Under a beige sofa only Bruno's muddy face and big eyes are visible in the shadow, he looks completely unimpressed, then dramatically turns his head away with his nose in the air. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 12,
+      "akt": "Problem",
+      "dauer": 0.4,
+      "kamera": "Close-up",
+      "figuren_im_bild": [
+        "opa"
+      ],
+      "beschreibung_de": "Opa verzweifelt",
+      "aktion": "Opa Heinz's face crumples in theatrical despair, lower lip trembling.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Camera: Close-up. Opa Heinz's face crumples in theatrical despair, lower lip trembling. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 13,
+      "akt": "Problem",
+      "dauer": 0.7,
+      "kamera": "Medium wide shot",
+      "figuren_im_bild": [
+        "opa"
+      ],
+      "beschreibung_de": "Opa sackt im Sessel zusammen",
+      "aktion": "Opa Heinz slumps defeated into a big armchair, arms hanging down, rubber duck slipping from his hand.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Camera: Medium wide shot. Opa Heinz slumps defeated into a big armchair, arms hanging down, rubber duck slipping from his hand. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 14,
+      "akt": "Köder",
+      "dauer": 0.5,
+      "kamera": "Extreme close-up",
+      "figuren_im_bild": [],
+      "beschreibung_de": "Würstchen brutzeln in der Pfanne",
+      "aktion": "Juicy golden sausages sizzle in a cast iron frying pan, fat popping, steam rising, warm kitchen light.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Camera: Extreme close-up. Juicy golden sausages sizzle in a cast iron frying pan, fat popping, steam rising, warm kitchen light. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 15,
+      "akt": "Köder",
+      "dauer": 0.5,
+      "kamera": "Top-down shot",
+      "figuren_im_bild": [],
+      "beschreibung_de": "Teller mit Würstchen",
+      "aktion": "A plate of perfectly grilled golden sausages with a little mustard on a wooden kitchen table, steam rising.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Camera: Top-down shot. A plate of perfectly grilled golden sausages with a little mustard on a wooden kitchen table, steam rising. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 16,
+      "akt": "Köder",
+      "dauer": 1.9,
+      "kamera": "Medium close-up",
+      "figuren_im_bild": [
+        "opa"
+      ],
+      "beschreibung_de": "Opa isst genüsslich – und schielt zum Sofa",
+      "aktion": "Opa Heinz sits at the kitchen table and bites into a sausage with exaggerated pleasure, eyes closed, then gives a sneaky sideways glance toward the living room.",
+      "sprecher": "opa",
+      "dialog": "Mmmh, sooo lecker…",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Camera: Medium close-up. Opa Heinz sits at the kitchen table and bites into a sausage with exaggerated pleasure, eyes closed, then gives a sneaky sideways glance toward the living room. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 17,
+      "akt": "Köder",
+      "dauer": 1.0,
+      "kamera": "Close-up",
+      "figuren_im_bild": [
+        "bruno"
+      ],
+      "beschreibung_de": "Bruno taucht auf, sabbert",
+      "aktion": "Bruno's head pops out from under the sofa, huge sparkling eyes, nose twitching, a drop of drool hanging from his mouth.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Close-up. Bruno's head pops out from under the sofa, huge sparkling eyes, nose twitching, a drop of drool hanging from his mouth. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 18,
+      "akt": "Köder",
+      "dauer": 1.1,
+      "kamera": "Wide shot",
+      "figuren_im_bild": [
+        "opa",
+        "bruno"
+      ],
+      "beschreibung_de": "Bruno schleicht sich an",
+      "aktion": "Bruno tiptoes sneakily across the wooden floor toward Opa Heinz at the kitchen table, leaving muddy paw prints.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Wide shot. Bruno tiptoes sneakily across the wooden floor toward Opa Heinz at the kitchen table, leaving muddy paw prints. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 19,
+      "akt": "Köder",
+      "dauer": 0.5,
+      "kamera": "Low angle close-up",
+      "figuren_im_bild": [
+        "bruno"
+      ],
+      "beschreibung_de": "Bruno macht Männchen und bettelt",
+      "aktion": "Bruno sits up and begs, front paws raised, tongue out, giant pleading puppy eyes.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Low angle close-up. Bruno sits up and begs, front paws raised, tongue out, giant pleading puppy eyes. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 20,
+      "akt": "Köder",
+      "dauer": 0.9,
+      "kamera": "Close-up from below",
+      "figuren_im_bild": [
+        "opa"
+      ],
+      "beschreibung_de": "Opa – scheinheiliges Lächeln",
+      "aktion": "Opa Heinz looks down with a fake innocent smile and one eyebrow raised suspiciously high.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Camera: Close-up from below. Opa Heinz looks down with a fake innocent smile and one eyebrow raised suspiciously high. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 21,
+      "akt": "Köder",
+      "dauer": 1.7,
+      "kamera": "Extreme close-up",
+      "figuren_im_bild": [
+        "opa",
+        "bruno"
+      ],
+      "beschreibung_de": "Opa hält ein Stück Wurst hin",
+      "aktion": "Opa Heinz's hand slowly holds out a piece of sausage, Bruno's wet nose and open mouth approach it from below.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Extreme close-up. Opa Heinz's hand slowly holds out a piece of sausage, Bruno's wet nose and open mouth approach it from below. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 22,
+      "akt": "Köder",
+      "dauer": 1.7,
+      "kamera": "Close-up",
+      "figuren_im_bild": [
+        "bruno"
+      ],
+      "beschreibung_de": "Bruno mampft glücklich",
+      "aktion": "Bruno happily chomps the sausage, eyes closed in pure bliss, cheeks puffed, little hearts of joy in his expression.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Close-up. Bruno happily chomps the sausage, eyes closed in pure bliss, cheeks puffed, little hearts of joy in his expression. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 23,
+      "akt": "Twist",
+      "dauer": 1.4,
+      "kamera": "Medium shot",
+      "figuren_im_bild": [
+        "opa",
+        "bruno"
+      ],
+      "beschreibung_de": "Opa schnappt sich Bruno",
+      "aktion": "Opa Heinz suddenly grabs Bruno with both arms and lifts him up triumphantly, grinning wide, Bruno still chewing with a surprised face.",
+      "sprecher": "opa",
+      "dialog": "Hab dich!",
+      "einblendung": "HAB DICH!",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Medium shot. Opa Heinz suddenly grabs Bruno with both arms and lifts him up triumphantly, grinning wide, Bruno still chewing with a surprised face. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 24,
+      "akt": "Twist",
+      "dauer": 4.0,
+      "kamera": "Close-up",
+      "figuren_im_bild": [
+        "opa",
+        "bruno"
+      ],
+      "beschreibung_de": "Bruno begreift langsam, dass er reingelegt wurde",
+      "aktion": "Held in Opa Heinz's arms, Bruno slowly stops chewing, his eyes shift sideways with growing suspicion as he realizes he has been tricked.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Close-up. Held in Opa Heinz's arms, Bruno slowly stops chewing, his eyes shift sideways with growing suspicion as he realizes he has been tricked. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 25,
+      "akt": "Twist",
+      "dauer": 1.0,
+      "kamera": "Medium close-up",
+      "figuren_im_bild": [
+        "opa"
+      ],
+      "beschreibung_de": "Opa zeigt Shampoo und Bürste – fieses Grinsen",
+      "aktion": "Opa Heinz holds up a big bottle of dog shampoo and a scrubbing brush with a mischievous evil grin, light glinting off his glasses.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Camera: Medium close-up. Opa Heinz holds up a big bottle of dog shampoo and a scrubbing brush with a mischievous evil grin, light glinting off his glasses. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 26,
+      "akt": "Twist",
+      "dauer": 0.4,
+      "kamera": "Extreme close-up",
+      "figuren_im_bild": [
+        "bruno"
+      ],
+      "beschreibung_de": "Brunos Pupillen werden winzig",
+      "aktion": "Bruno's pupils shrink to tiny pinpoints in shock.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Extreme close-up. Bruno's pupils shrink to tiny pinpoints in shock. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 27,
+      "akt": "Twist",
+      "dauer": 0.5,
+      "kamera": "Extreme close-up",
+      "figuren_im_bild": [
+        "bruno"
+      ],
+      "beschreibung_de": "Bruno schreit stumm vor Entsetzen",
+      "aktion": "Bruno opens his mouth wide in a silent horrified scream, wrinkles trembling.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Extreme close-up. Bruno opens his mouth wide in a silent horrified scream, wrinkles trembling. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 28,
+      "akt": "Twist",
+      "dauer": 1.7,
+      "kamera": "Medium shot",
+      "figuren_im_bild": [
+        "opa",
+        "bruno"
+      ],
+      "beschreibung_de": "Bruno windet sich frei",
+      "aktion": "Bruno wriggles like a slippery noodle, slips out of Opa Heinz's arms and lands on the floor with a bounce.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Medium shot. Bruno wriggles like a slippery noodle, slips out of Opa Heinz's arms and lands on the floor with a bounce. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 29,
+      "akt": "Twist",
+      "dauer": 0.8,
+      "kamera": "Medium close-up",
+      "figuren_im_bild": [
+        "opa"
+      ],
+      "beschreibung_de": "Opa wirft lässig die Shampooflasche",
+      "aktion": "Opa Heinz tosses the shampoo bottle up and catches it, grinning confidently.",
+      "sprecher": "opa",
+      "dialog": "Du entkommst mir nicht!",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Camera: Medium close-up. Opa Heinz tosses the shampoo bottle up and catches it, grinning confidently. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 30,
+      "akt": "Eskalation",
+      "dauer": 2.4,
+      "kamera": "Wide shot",
+      "figuren_im_bild": [
+        "opa",
+        "bruno"
+      ],
+      "beschreibung_de": "Verfolgungsjagd ums Sofa",
+      "aktion": "A wild chase through the cozy living room: Bruno runs in circles around the sofa, Opa Heinz chases him in his slippers, cushions flying.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Wide shot. A wild chase through the cozy living room: Bruno runs in circles around the sofa, Opa Heinz chases him in his slippers, cushions flying. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 31,
+      "akt": "Eskalation",
+      "dauer": 0.4,
+      "kamera": "Medium shot",
+      "figuren_im_bild": [
+        "opa"
+      ],
+      "beschreibung_de": "Opa rutscht auf dem Teppich aus",
+      "aktion": "Opa Heinz slips on a rug, arms flailing in the air, one slipper flying off.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Camera: Medium shot. Opa Heinz slips on a rug, arms flailing in the air, one slipper flying off. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 32,
+      "akt": "Eskalation",
+      "dauer": 1.5,
+      "kamera": "Medium shot",
+      "figuren_im_bild": [
+        "opa",
+        "bruno"
+      ],
+      "beschreibung_de": "Opa fängt Bruno an der Badtür",
+      "aktion": "In the bathroom doorway Opa Heinz finally catches Bruno and lifts him up, Bruno's legs still running in the air.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Medium shot. In the bathroom doorway Opa Heinz finally catches Bruno and lifts him up, Bruno's legs still running in the air. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 33,
+      "akt": "Eskalation",
+      "dauer": 0.6,
+      "kamera": "Medium close-up",
+      "figuren_im_bild": [
+        "opa",
+        "bruno"
+      ],
+      "beschreibung_de": "Opa senkt Bruno Richtung Wanne",
+      "aktion": "Opa Heinz lowers Bruno toward the foamy bathtub.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Medium close-up. Opa Heinz lowers Bruno toward the foamy bathtub. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 34,
+      "akt": "Eskalation",
+      "dauer": 0.5,
+      "kamera": "Close-up",
+      "figuren_im_bild": [
+        "bruno"
+      ],
+      "beschreibung_de": "Bruno spreizt alle viere gegen den Wannenrand",
+      "aktion": "Bruno spreads all four legs stiffly like a starfish, bracing his paws against the rim of the bathtub, refusing to go in.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Close-up. Bruno spreads all four legs stiffly like a starfish, bracing his paws against the rim of the bathtub, refusing to go in. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 35,
+      "akt": "Eskalation",
+      "dauer": 1.4,
+      "kamera": "Extreme close-up",
+      "figuren_im_bild": [
+        "bruno"
+      ],
+      "beschreibung_de": "Pfoten krallen sich an den Rand",
+      "aktion": "Bruno's muddy little paws grip the white edge of the bathtub with all their strength, trembling.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Extreme close-up. Bruno's muddy little paws grip the white edge of the bathtub with all their strength, trembling. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 36,
+      "akt": "Eskalation",
+      "dauer": 0.8,
+      "kamera": "Medium shot",
+      "figuren_im_bild": [
+        "bruno"
+      ],
+      "beschreibung_de": "Bruno schüttelt sich – alles spritzt",
+      "aktion": "Bruno shakes himself violently, water, mud and foam spraying everywhere in slow motion.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Medium shot. Bruno shakes himself violently, water, mud and foam spraying everywhere in slow motion. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 37,
+      "akt": "Eskalation",
+      "dauer": 0.5,
+      "kamera": "Close-up",
+      "figuren_im_bild": [
+        "opa"
+      ],
+      "beschreibung_de": "Opa bekommt die volle Ladung ins Gesicht",
+      "aktion": "A wave of foam and muddy water hits Opa Heinz's face, his glasses are covered in foam.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Camera: Close-up. A wave of foam and muddy water hits Opa Heinz's face, his glasses are covered in foam. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 38,
+      "akt": "Eskalation",
+      "dauer": 0.7,
+      "kamera": "Close-up",
+      "figuren_im_bild": [
+        "opa"
+      ],
+      "beschreibung_de": "Opa klatschnass",
+      "aktion": "Opa Heinz stands soaking wet, mustache dripping, foam on his head, blinking in shock.",
+      "sprecher": "opa",
+      "dialog": "Na großartig.",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Camera: Close-up. Opa Heinz stands soaking wet, mustache dripping, foam on his head, blinking in shock. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 39,
+      "akt": "Eskalation",
+      "dauer": 1.3,
+      "kamera": "Medium wide shot",
+      "figuren_im_bild": [
+        "opa",
+        "bruno"
+      ],
+      "beschreibung_de": "Bruno haut ab, Opa sitzt im Nassen",
+      "aktion": "Bruno escapes out of the bathroom leaving wet paw prints, while Opa Heinz sits defeated on the wet bathroom floor.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Medium wide shot. Bruno escapes out of the bathroom leaving wet paw prints, while Opa Heinz sits defeated on the wet bathroom floor. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 40,
+      "akt": "Lösung",
+      "dauer": 1.8,
+      "kamera": "Medium shot",
+      "figuren_im_bild": [
+        "opa"
+      ],
+      "beschreibung_de": "Opa durchwühlt den Gartenschuppen",
+      "aktion": "In a cluttered wooden garden shed, Opa Heinz rummages through boxes, tools flying over his shoulder, then he freezes as he finds something.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Camera: Medium shot. In a cluttered wooden garden shed, Opa Heinz rummages through boxes, tools flying over his shoulder, then he freezes as he finds something. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 41,
+      "akt": "Lösung",
+      "dauer": 1.4,
+      "kamera": "Low angle medium shot",
+      "figuren_im_bild": [
+        "opa"
+      ],
+      "beschreibung_de": "Opa hält ein Planschbecken hoch",
+      "aktion": "Opa Heinz lifts a colorful inflatable kiddie pool triumphantly above his head, sunlight behind him, big determined grin.",
+      "sprecher": "opa",
+      "dialog": "Plan B!",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Camera: Low angle medium shot. Opa Heinz lifts a colorful inflatable kiddie pool triumphantly above his head, sunlight behind him, big determined grin. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 42,
+      "akt": "Lösung",
+      "dauer": 1.6,
+      "kamera": "Wide shot",
+      "figuren_im_bild": [
+        "opa"
+      ],
+      "beschreibung_de": "Opa füllt das Planschbecken im Garten",
+      "aktion": "In a sunny green garden, Opa Heinz fills the kiddie pool with a garden hose and pours in bubble bath, foam bubbles rising.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Camera: Wide shot. In a sunny green garden, Opa Heinz fills the kiddie pool with a garden hose and pours in bubble bath, foam bubbles rising. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 43,
+      "akt": "Lösung",
+      "dauer": 1.8,
+      "kamera": "Close-up",
+      "figuren_im_bild": [
+        "opa"
+      ],
+      "beschreibung_de": "Opa baut ein Würstchen-Floß und zwinkert",
+      "aktion": "Opa Heinz builds a tiny raft from a yellow sponge and carefully places three sausages on it, then winks at the camera.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Camera: Close-up. Opa Heinz builds a tiny raft from a yellow sponge and carefully places three sausages on it, then winks at the camera. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 44,
+      "akt": "Lösung",
+      "dauer": 1.1,
+      "kamera": "Close-up",
+      "figuren_im_bild": [
+        "bruno"
+      ],
+      "beschreibung_de": "Bruno schnuppert hinterm Busch",
+      "aktion": "Bruno peeks out from behind a garden bush, nose twitching, sniffing the air, eyes locked on something.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Close-up. Bruno peeks out from behind a garden bush, nose twitching, sniffing the air, eyes locked on something. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 45,
+      "akt": "Lösung",
+      "dauer": 1.5,
+      "kamera": "Close-up",
+      "figuren_im_bild": [],
+      "beschreibung_de": "Das Würstchen-Floß treibt im Becken",
+      "aktion": "The little sponge raft with three sausages floats slowly in the middle of the foamy kiddie pool, sunlight sparkling on the water.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Camera: Close-up. The little sponge raft with three sausages floats slowly in the middle of the foamy kiddie pool, sunlight sparkling on the water. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 46,
+      "akt": "Lösung",
+      "dauer": 0.7,
+      "kamera": "Medium close-up",
+      "figuren_im_bild": [
+        "bruno"
+      ],
+      "beschreibung_de": "Bruno am Beckenrand – hin- und hergerissen",
+      "aktion": "Bruno stands at the edge of the kiddie pool, torn, looking back and forth between the water and the sausages, sweating nervously.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Medium close-up. Bruno stands at the edge of the kiddie pool, torn, looking back and forth between the water and the sausages, sweating nervously. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 47,
+      "akt": "Lösung",
+      "dauer": 1.6,
+      "kamera": "Medium shot, slow motion",
+      "figuren_im_bild": [
+        "bruno"
+      ],
+      "beschreibung_de": "Bruno springt mit Bauchklatscher rein",
+      "aktion": "Bruno leaps into the kiddie pool with a huge belly-flop, a big splash of water and foam.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Medium shot, slow motion. Bruno leaps into the kiddie pool with a huge belly-flop, a big splash of water and foam. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 48,
+      "akt": "Lösung",
+      "dauer": 0.7,
+      "kamera": "Close-up",
+      "figuren_im_bild": [
+        "bruno"
+      ],
+      "beschreibung_de": "Bruno mampft im Becken",
+      "aktion": "Bruno floats in the foamy pool happily eating a sausage, eyes closed in bliss.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Close-up. Bruno floats in the foamy pool happily eating a sausage, eyes closed in bliss. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 49,
+      "akt": "Lösung",
+      "dauer": 0.7,
+      "kamera": "Medium shot",
+      "figuren_im_bild": [
+        "opa",
+        "bruno"
+      ],
+      "beschreibung_de": "Opa schrubbt heimlich los",
+      "aktion": "Opa Heinz sneaks up behind Bruno and gently scrubs his back with a big sponge, mud washing away.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Medium shot. Opa Heinz sneaks up behind Bruno and gently scrubs his back with a big sponge, mud washing away. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 50,
+      "akt": "Lösung",
+      "dauer": 0.6,
+      "kamera": "Close-up",
+      "figuren_im_bild": [
+        "bruno"
+      ],
+      "beschreibung_de": "Bruno mit Schaumkrone",
+      "aktion": "A tall fluffy foam hat sits on top of Bruno's head.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Close-up. A tall fluffy foam hat sits on top of Bruno's head. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 51,
+      "akt": "Lösung",
+      "dauer": 0.6,
+      "kamera": "Close-up",
+      "figuren_im_bild": [
+        "bruno"
+      ],
+      "beschreibung_de": "Bruno merkt den Verrat",
+      "aktion": "Bruno stops chewing mid-bite and slowly looks up with a deeply betrayed expression.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Close-up. Bruno stops chewing mid-bite and slowly looks up with a deeply betrayed expression. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 52,
+      "akt": "Lösung",
+      "dauer": 0.4,
+      "kamera": "Extreme close-up",
+      "figuren_im_bild": [
+        "bruno"
+      ],
+      "beschreibung_de": "Brunos Unterlippe zittert",
+      "aktion": "Bruno's lower lip trembles dramatically, eyes filling with tears.",
+      "sprecher": null,
+      "dialog": "",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Extreme close-up. Bruno's lower lip trembles dramatically, eyes filling with tears. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    },
+    {
+      "nr": 53,
+      "akt": "Lösung",
+      "dauer": 2.6,
+      "kamera": "Medium shot",
+      "figuren_im_bild": [
+        "opa",
+        "bruno"
+      ],
+      "beschreibung_de": "Schluss: Bruno sauber und beleidigt, Opa Daumen hoch",
+      "aktion": "Final shot: clean, fluffy Bruno sits grumpily in the foamy kiddie pool with a sausage sticking out of his mouth, pouting, while Opa Heinz kneels beside him grinning and giving a thumbs up.",
+      "sprecher": "opa",
+      "dialog": "Sauber und satt, Bruno!",
+      "einblendung": "",
+      "prompt": "Stylized 3D animated feature-film look, soft rounded character design, glossy oversized expressive eyes, warm soft cinematic lighting, cozy detailed family home with wooden floors, plants and warm lamps, shallow depth of field, rich warm color grading. Opa Heinz: a cheerful chubby grandfather in his seventies with a round face, rosy cheeks, a big bushy white walrus mustache, bald on top with fluffy white hair on the sides, small round gold-rimmed glasses, wearing a mustard-yellow knitted cardigan over a light blue collared shirt, brown corduroy trousers and brown felt slippers. Bruno: a very chubby fawn-colored pug dog with a round body, short stubby legs, a black wrinkly squished face, huge glossy round dark-brown eyes, small folded black ears, a tightly curled tail, wearing a bright red collar with a small golden bone-shaped tag. Camera: Medium shot. Final shot: clean, fluffy Bruno sits grumpily in the foamy kiddie pool with a sausage sticking out of his mouth, pouting, while Opa Heinz kneels beside him grinning and giving a thumbs up. Exaggerated, highly expressive cartoon facial expressions. The main action starts immediately in the first second. Vertical 9:16 framing. No text, no captions, no watermark, no logo."
+    }
+  ]
+}
